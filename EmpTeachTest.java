@@ -45,5 +45,7 @@ public class EmpTeachTest {
         t1.display(); // bjoern-w11, Bjoernn
         Employee e2 = new Teacher();
         e2.display();// bjoern-w11, Bjoernn
+        Teacher t2 = (Teacher) e1;
+        t2.display();// bjoern-w11, Bjoernn
     }
 }
