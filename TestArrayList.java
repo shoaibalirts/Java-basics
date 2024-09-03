@@ -29,10 +29,23 @@ public class TestArrayList {
         // System.out.println(al.get(1).id);
         int size = al.size();
         System.out.println(size);
-        for (Student item : al) {
-            System.out.println(item.id * 5);
+        boolean b = al.isEmpty();
+        System.out.println(b);
+        if (b) {
+            System.out.println("Insert array elements");
+        } else {
+            for (Student item : al) {
+                System.out.println(item.id * 5);
+
+            }
+            Student s3 = (Student) al.get(1);
+            System.out.println("----------------");
+
+            System.out.println("copying array element at index 1");
+            System.out.println(s3.name);
+            System.out.println("----------------");
 
         }
-    }
 
+    }
 }
