@@ -1,5 +1,4 @@
 import javax.swing.*;
-import Point from "./Point.";
 class InputOutputTest {
     public static void main(String[] args) {
         String input = JOptionPane.showInputDialog("Enter a number: ");
